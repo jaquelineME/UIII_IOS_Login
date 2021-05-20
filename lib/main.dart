@@ -83,6 +83,21 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 SizedBox(height: 16.0),
               ],
             ),
+            if (!acceso)
+              {
+                Column(children: <Widget>[
+                  TextField(
+                    decoration: InputDecoration(
+                      filled: true,
+                      // fillColor: Colors.amber,
+                      labelText: 'Nombre de Usuario',
+                    ),
+                  ),
+                ] //Fin widget[]
+                    ) //Fin de coluna
+              } //Fin if
+            else
+              {} //Fin else
           ], //Fin de widget[]
         ), //Fin de ListView
       ), //Fin de area segura
