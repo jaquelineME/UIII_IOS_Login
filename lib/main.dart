@@ -140,7 +140,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       child: Text('Logout'),
                       onPressed: () {
                         setState(() {
-                          isLogin = false;
+                          acceso = false;
                         });
                       },
                     )
