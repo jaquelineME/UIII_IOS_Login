@@ -136,6 +136,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   children: <Widget>[
                     Text('YAY, Estoy ingresando!'),
                     RaisedButton(
+                      color: Colors.cyan,
                       elevation: 20.0,
                       child: Text('Cerrar Sesión'),
                       onPressed: () {
